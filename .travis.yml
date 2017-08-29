@@ -1,0 +1,17 @@
+language: go
+go:
+- 1.9
+install:
+- go get github.com/spf13/hugo
+script: hugo
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: david-coy.com-cdn
+  region: us-east-1
+  endpoint: david-coy.com-cdn.s3-website-us-east-1.amazonaws.com
+  local-dir: public
+  skip_cleanup: true
+  on:
+    repo: obsidianspork/my-blog
