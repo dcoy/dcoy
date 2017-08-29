@@ -1,2 +1,7 @@
 #Don't track public
 public/**
+
+# Don't track AWS Json Configs
+deploy/distroConfig.json
+deploy/route53BatchJob.json
+deploy/website.json
