@@ -4,4 +4,4 @@ title = "About"
 hidden = true
 +++
 
-David loves to learn about new technologies, Linux administration and coding in Python or Go. In his free time, he's usually spending time with his family cooking up new recipes or hiking.
+I love to learn about new technologies, Linux administration and coding in Python or Go. In my free time, I'm usually spending time with my family cooking up new recipes or hiking.
