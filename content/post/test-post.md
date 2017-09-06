@@ -1,13 +1,13 @@
 +++
-categories = []
+categories = ["test"]
 comments = false
 date = "2017-08-29T18:12:05-05:00"
-description = ""
+description = "A test post for testing"
 draft = false
 showcomments = false
 showpagemeta = false
 slug = ""
-title = ""
+title = "Hello world!"
 
 +++
 
