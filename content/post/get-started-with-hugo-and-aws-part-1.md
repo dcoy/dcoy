@@ -2,7 +2,7 @@
 comments = false
 date = "2017-09-21T16:13:19-05:00"
 description = "Getting setup with Hugo"
-draft = true
+draft = false
 showcomments = false
 showpagemeta = false
 slug = ""
