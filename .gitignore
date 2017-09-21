@@ -1,4 +1,4 @@
-#Don't track public
+#Don't track public directory
 public/**
 
 # Don't track AWS Json Configs

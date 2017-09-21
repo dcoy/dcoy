@@ -12,7 +12,7 @@ hasCJKLanguage = true
 	name = "David Coy"
 	description = "Blogger | Python | Gopher"
 	bio = "Blogger | Python | Gopher"
-	# Enter optionally your twitter account
+	
 	twitter = "obsidianspork"
 	enableRSS = true
 
