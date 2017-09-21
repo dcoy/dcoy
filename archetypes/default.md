@@ -1,8 +1,9 @@
 +++
 title = ""
 description = ""
-draft = false
+draft = true
 categories = []
+tags = []
 comments = false
 slug = ""
 showpagemeta = false
