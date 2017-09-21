@@ -10,7 +10,7 @@ title = "Hugo & AWS: Part 1"
 tags = ["AWS","Hugo","Cloudfront","S3"]
 +++
 
-Hello there! This is part one in a series of blog posts that will provide a simple walkthrough on getting setup with Hugo, AWS and TravisCI. I am in no way an AWS professional, nor a static site expert. This series of blog posts makes the assumption that you're familiar with the command line.
+Hello there! This is part one in a series of blog posts that will provide a simple walkthrough on getting setup with Hugo, AWS and TravisCI. I will start with getting Hugo setup locally, configuring your AWS S3 & Cloudfront setup, then end with TravisCI integration. This series of blog posts makes the assumption that you're familiar with the command line.
 
 ## What is Hugo?
 

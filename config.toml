@@ -25,7 +25,7 @@ hasCJKLanguage = true
 	enableGithubIssuesTips = false
 
 	# Enable googleAnalytics
-	enableGoogleAnalytics = false
+	enableGoogleAnalytics = true
 
 	enableBaiduAnalytics = false
 
@@ -51,7 +51,7 @@ hasCJKLanguage = true
 	aboutAuthor = "Blogger. Go and Python"
 	tweet = ""
 	share = ""
-	# 404 page
+	# 404 page	
 	title404 = ""
 	subtitle404 = ""
 
