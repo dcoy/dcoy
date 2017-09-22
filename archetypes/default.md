@@ -1,8 +1,7 @@
 +++
 title = ""
 description = ""
-draft = true
-categories = []
+draft = false
 tags = []
 comments = false
 slug = ""

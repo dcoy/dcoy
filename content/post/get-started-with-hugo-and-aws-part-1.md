@@ -68,7 +68,7 @@ Once you have chosen a theme that suits your needs, be sure to initiate tracking
 
 I chose option #2 as I want to get started quickly, and updates to the theme did not concern me. My intention is to create a new theme all together, but that's later down the line. I may end up replacing this with option #1 in the future. For now, here's how I did this. You will be executing three commands, so let's break down what will be run.
 
-The first command to execute will create the `.gitignore` file and ensure you don't track the `public/` directory, along with all of its contents. By default, Hugo generates the `public/` directory to server its statis assets, but you don't need to commit those to version control. 
+The first command to execute will create the `.gitignore` file and ensure you don't track the `public/` directory, along with all of its contents. By default, Hugo generates the `public/` directory to server its static assets, but you don't need to commit those to version control. 
 
 ```
 echo -e "#Don't track public directory\npublic/**" >> .gitignore
