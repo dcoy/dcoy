@@ -1,7 +1,8 @@
 +++
 title = ""
 description = ""
-draft = false
+date = {{ .Date }}
+draft = true
 tags = []
 comments = false
 slug = ""
