@@ -40,10 +40,14 @@ For Windows, use Chocolatey:
 choco install hugo -confirm
 ```
 
-For Linux, use snap:
+For Linux, use snap or [Linuxbrew](https://linuxbrew.sh):
 
 ```
 snap install hugo
+```
+
+```
+brew install hugo
 ```
 
 Once the installation process finishes, you can test to see if Hugo installed properly, by running `hugo version`. You should see something similar to this:
