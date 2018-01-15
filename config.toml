@@ -10,8 +10,8 @@ hasCJKLanguage = true
 
 [params]
 	name = "David Coy"
-	description = "Blogger | Python | Gopher"
-	bio = "Blogger | Python | Gopher"
+	description = "Blogger | Software Development | Coffee"
+	bio = "Blogger | Software Development | Coffee"
 	
 	twitter = "obsidianspork"
 	enableRSS = true
@@ -48,7 +48,7 @@ hasCJKLanguage = true
 	readMore = ""
 	copyright = ""
 	# Sharing options and author information in posts
-	aboutAuthor = "Blogger. Go and Python"
+	aboutAuthor = "Blogger. Software Development and Coffee"
 	tweet = ""
 	share = ""
 	# 404 page	
