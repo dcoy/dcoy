@@ -4,4 +4,4 @@ title = "About"
 hidden = true
 +++
 
-I love to learn about new technologies, Linux administration and coding in Python, Ruby, or Go. In my free time, I'm usually spending time with my family cooking up new recipes or hiking.
+I love to learn about new technologies, JavaScript/Node.js, React or Go. In my free time, I'm usually spending time with my family cooking up new recipes, hiking, or exploring Texas.
