@@ -90,6 +90,6 @@ Update your first post to within the `content/post/` directory with some content
 
 **Note**: If you are not seeing your post, it is more than likely set to `draft = true` in the post's metadata. You can simply run `hugo server -wvD` or set `draft = false` to view the post.
 
-That's it! You've successfully installed Hugo, now get to blogging! Next, we're going to cover configuring AWS S3 and Cloudfront to host and serve all of the static content for your site.
+That's it, you've successfully installed Hugo! Next, we're going to cover configuring AWS S3 and Cloudfront to host and serve all of the static content for your site.
 
 Thank you for reading!
