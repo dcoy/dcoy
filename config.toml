@@ -6,7 +6,7 @@ title = "{ David Coy }"
 theme = "cactus-plus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-83205152-2"
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 [params]
 	name = "David Coy"
@@ -14,7 +14,7 @@ hasCJKLanguage = true
 	bio = "Blogger | Software Development | Coffee"
 	
 	twitter = "obsidianspork"
-	enableRSS = true
+	enableRSS = false
 
 	# Disable disqus comments by set `enableDisqus = "false"`
 	enableDisqus = false
@@ -49,8 +49,8 @@ hasCJKLanguage = true
 	copyright = ""
 	# Sharing options and author information in posts
 	aboutAuthor = "Blogger. Software Development and Coffee"
-	tweet = ""
-	share = ""
+	tweet = "Blogger. Software Development and Coffee"
+	share = "Blogger. Software Development and Coffee"
 	# 404 page	
 	title404 = ""
 	subtitle404 = ""
