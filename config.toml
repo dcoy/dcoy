@@ -63,6 +63,7 @@ hasCJKLanguage = false
 
 # Add additional social link entries underneath
 [social]
-  twitter-square  = "https://twitter.com/obsidianspork"
-  linkedin-square = "https://linkedin.com/in/david-coy"
-  github-square   = "https://github.com/obsidianspork"
+  twitter  = "https://twitter.com/obsidianspork"
+  linkedin = "https://linkedin.com/in/david-coy"
+  github   = "https://github.com/obsidianspork"
+	gitlab   = "https://gitlab.com/obsidianspork"
