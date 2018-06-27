@@ -4,4 +4,4 @@ title = "About"
 hidden = true
 +++
 
-I love to learn about new technologies, JavaScript/Node.js, React or Go. In my free time, I'm usually spending time with my family cooking up new recipes, hiking, or exploring Texas.
+I'm a software developer with a passion for backend engineering and automation. I'm fortunate enough to work for a company that teaches DevOps technologies and encourages continuous learning.
