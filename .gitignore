@@ -5,3 +5,5 @@ public/**
 deploy/distroConfig.json
 deploy/route53BatchJob.json
 deploy/website.json
+
+node_modules/

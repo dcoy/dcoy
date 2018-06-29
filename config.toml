@@ -15,6 +15,7 @@ hasCJKLanguage = false
 	
 	twitter = "obsidianspork"
 	enableRSS = false
+	enableToc = true
 
 	# Disable disqus comments by set `enableDisqus = "false"`
 	enableDisqus = false
@@ -42,15 +43,18 @@ hasCJKLanguage = false
 	archive = "Blog"
 	subscribe = ""
 	tags = ""
+
 	# Pagination links
 	olderPosts = ""
 	newerPosts = ""
 	readMore = ""
 	copyright = ""
+
 	# Sharing options and author information in posts
 	aboutAuthor = "Blogger. Software Development and Coffee"
 	tweet = "Blogger. Software Development and Coffee"
 	share = "Blogger. Software Development and Coffee"
+
 	# 404 page	
 	title404 = ""
 	subtitle404 = ""
