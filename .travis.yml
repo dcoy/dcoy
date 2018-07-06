@@ -15,3 +15,6 @@ deploy:
   skip_cleanup: true
   on:
     repo: obsidianspork/my-blog
+after_deploy:
+  - aws configure set preview.cloudfront true
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
