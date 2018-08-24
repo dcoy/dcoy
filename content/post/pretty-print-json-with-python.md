@@ -13,9 +13,7 @@ showcomments: false
 enableToc: false
 ---
 
-# Pretty Printing JSON with Python
-
-Python can be used to pretty-print JSON files locally, by invoking the `json.tool` module. It can turn "ugly" JSON
+Python can be used to pretty-print JSON files locally, by invoking the `json.tool` module. It can turn "ugly" JSON:
 
 ```shell
 ➜  roles cat web.json
