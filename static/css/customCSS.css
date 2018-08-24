@@ -1,5 +1,32 @@
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("https://fonts.googleapis.com/css?family=Inconsolata:400,700")
+}
+
+body {
+  font-family: 'Inconsolata', monospace !important;
+}
+
+#post-list h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.75em;
+}
+
+.profile h2 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.0em;
+}
+
+#post-list a {
+  font-family: 'Inconsolata', monospace;
+}
+
 img.hugo-logo {
   width: 25%;
+}
+
+#wrapper {
+  max-width: 50%;
 }
 
 .profile #avatar {
