@@ -21,6 +21,10 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+#post-list .dates {
+  font-family: 'Inconsolata', monospace;
+}
+
 img.hugo-logo {
   width: 25%;
 }
