@@ -30,27 +30,27 @@ Installing Hugo is pretty straight forward, here are the commands that will get 
 
 For macOS, use Homebrew:
 
-```
-brew install hugo
+```shell
+➜ ~ brew install hugo
 ```
 
 For Linux, use snap or [Linuxbrew](https://linuxbrew.sh):
 
-```
-snap install hugo
+```shell
+➜ ~ snap install hugo
 ```
 
 Once the installation process finishes, you can test to see if Hugo installed properly, by running `hugo version`. You should see something similar to this:
 
-```
-➜  ~ hugo version
+```shell
+➜ ~ hugo version
 Hugo Static Site Generator v0.20.7 darwin/amd64 BuildDate: 2017-05-06T22:00:51-05:00
 ```
 
 Now that you've successfully installed Hugo, it's time to create your site. Switch to the directory that you'd like your Hugo site to be, then run:
 
-```
-hugo new site <site-name>
+```shell
+➜ ~ hugo new site <site-name>
 ```
 
 The `hugo new site` will generate the scaffold to build your site, however it does not provide a theme. At this point, your site will look pretty boring, so let's add a theme to it. Head to the [Hugo Themes](https://themes.gohugo.io/) page and choose a theme. I chose to use the [Cactus Plus Theme](https://themes.gohugo.io/hugo-theme-cactus-plus/) by [Hang Jiang](https://github.com/nodejh), however you should choose a theme that works best for you.
@@ -64,26 +64,26 @@ I chose option #2 as I want to get started quickly, and updates to the theme did
 
 The first command to execute will create the `.gitignore` file and ensure you don't track the `public/` directory, along with all of its contents. By default, Hugo generates the `public/` directory to server its static assets, but you don't need to commit those to version control. 
 
-```
-echo -e "#Don't track public directory\npublic/**" >> .gitignore
+```shell
+➜ ~ echo -e "#Don't track public directory\npublic/**" >> .gitignore
 ```
 
 Next, you'll be executing a command that clones down the repository of the theme you'd like to use for your Hugo site, into the `themes/` directory:
 
-```
-git clone https://github.com/nodejh/hugo-theme-cactus-plus.git themes/cactus-plus
+```shell
+➜ ~ git clone https://github.com/nodejh/hugo-theme-cactus-plus.git themes/cactus-plus
 ``` 
 
 Finally, you will want to update your TOML configuration file to use the theme when the Hugo build process is executed:
 
-```
-echo 'theme = "cactus-plus"' >> config.toml
+```shell
+➜ ~ echo 'theme = "cactus-plus"' >> config.toml
 ```
 
 Now that you have initiated version control, set your `.gitignore` file, cloned down a theme and updated the TOML configuration file to use the theme, it's time to add a post to the site. Note: the path to the "posts" directory is dependent on the theme itself, however most themes follow the _`posts/post-title.md`_ convention:
 
-```
-hugo new post/first-post.md
+```shell
+➜ ~ hugo new post/first-post.md
 ```
 
 Update your first post to within the `content/post/` directory with some content, then run `hugo server -wv`, visit `localhost:1313` to see your post! 

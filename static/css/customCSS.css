@@ -128,3 +128,27 @@ nav.main-nav a {
     max-width: 600px;
   }
 }
+
+/* Syntax highlight reset */
+pre code {
+  font-size: 11px;
+  word-wrap: break-word;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  padding: 16px;
+  padding-bottom: 14px;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+code {
+    font-size: 11px;
+    font-weight: 100;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    overflow: scroll;
+    font-family: 'Menlo', 'Monaco', Courier, monospace;
+}
