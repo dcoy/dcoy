@@ -120,3 +120,11 @@ nav.main-nav a {
 .fa-twitter:hover {
   color: #1da1f2;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 540px) {
+  #wrapper {
+    max-width: 600px;
+  }
+}
