@@ -48,7 +48,8 @@ img.hugo-logo {
 }
 
 /* Table of content */
- #toc {
+
+#toc {
   line-height: 1em;
   font-size: .7em;
   word-wrap: break-word;
@@ -65,6 +66,7 @@ img.hugo-logo {
   overflow: hidden;
   font-family: 'Menlo', 'Monaco', Courier, monospace;
 }
+
 #TableOfContents {
   margin: 1em 0 0 0;
   overflow-x: auto;
@@ -72,22 +74,27 @@ img.hugo-logo {
   word-break: break-all;
   white-space: nowrap;
 }
+
 #TableOfContents ul {
-  list-style-type:none;
+  list-style-type: none;
   margin: 0;
   padding: 0 .5em;
 }
+
 #TableOfContents ul li {
   list-style-type: none;
   line-height: 1.7em;
 }
-#TableOfContents > ul {
+
+#TableOfContents>ul {
   padding: 0;
 }
-#TableOfContents > ul > li > ul {
+
+#TableOfContents>ul>li>ul {
   padding: 0;
 }
-#TableOfContents a code{
+
+#TableOfContents a code {
   font-family: Menlo, Monaco, Courier;
   background-color: #fff;
   font-size: 11px;
@@ -99,14 +106,114 @@ nav.main-nav a {
   color: #196FD2;
 }
 
+/* Syntax highlight reset */
 
+pre code {
+  font-size: 11px;
+  word-wrap: break-word;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  padding: 16px;
+  padding-bottom: 14px;
+  display: block;
+  border: 1px dotted #cdd4da;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+code {
+  font-size: 11px;
+  font-weight: 100;
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  overflow: scroll;
+  font-family: 'Menlo', 'Monaco', Courier, monospace;
+}
+
+/* Dark Mode */
+
+html {
+  --purple-text: #bd93f9;
+  --off-white-text: #cdd4da;
+  --dark-theme-bg: #282a36;
+  --white: #fff;
+}
+
+.theme-dark,
+nav.theme-dark {
+  background: var(--dark-theme-bg);
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  -webkit-text-stroke: 1px transparent;
+}
+
+nav.main-nav a,
+p a,
+.post h1,
+.post h2 {
+  color: var(--purple-text);
+}
+
+.c-container {
+  transition-duration: .3s;
+}
+
+.profile h2 {
+  color: var(--off-white-text);
+}
+
+h3,
+h4,
+h5 {
+  color: var(--purple-text);
+}
+
+.archive .post-link,
+#post-body p {
+  color: var(--off-white-text);
+}
+
+#post-list a {
+  color: var(--purple-text);
+}
+
+.profile h1 {
+  color: var(--purple-text);
+}
+
+a,
+#title {
+  color: var(--purple-text);
+}
+
+b,
+strong {
+  color: var(--off-white-text);
+}
+
+#post-body {
+  color: var(--off-white-text);
+}
+
+.post #toc {
+  background-color: var(--dark-theme-bg);
+}
+
+.home p {
+  color: var(--off-white-text);
+}
+
+.fa {
+  color: var(--purple-text);
+}
 
 .fa:hover {
   transition: 1s ease-out
 }
 
 .fa-github:hover {
-  color: #000;
+  color: var(--white);
 }
 
 .fa-gitlab:hover {
@@ -129,26 +236,22 @@ nav.main-nav a {
   }
 }
 
-/* Syntax highlight reset */
-pre code {
-  font-size: 11px;
-  word-wrap: break-word;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: auto;
-  padding: 16px;
-  padding-bottom: 14px;
-  display: block;
-  border: none;
-  border-radius: 4px;
-  overflow: auto;
-}
-
-code {
-    font-size: 11px;
-    font-weight: 100;
-    padding: 4px;
-    border: none;
-    border-radius: 4px;
-    overflow: scroll;
-    font-family: 'Menlo', 'Monaco', Courier, monospace;
+@media (max-width: 700px) {
+  nav.main-nav {
+      padding: 20px 10px 0 0;
+      background: var(--dark-theme-bg);
+      margin: 0 auto;
+      text-align: right;
+      z-index: 100;
+  }
+  nav.main-nav a {
+      top: 8px;
+      right: 6px;
+      padding: 8px 8px;
+      background: var(--dark-theme-bg);
+      color: var(--purple-text);
+      font-size: 13px;
+      line-height: 1.35;
+      border-radius: 3px;
+  }
 }
