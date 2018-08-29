@@ -42,7 +42,7 @@ pygmentsCodefences = true
 	# Navigation links
 	home = ""
 	about = "About"
-	archive = "Blog"
+	archive = "Posts"
 	subscribe = ""
 	tags = ""
 
