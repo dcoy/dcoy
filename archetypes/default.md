@@ -1,6 +1,6 @@
 +++
-title = ""
-description = ""
+title = "{{ replace .Name "-" " " | title }}"
+description = "{{ getenv "desc" }}"
 date = {{ .Date }}
 draft = true
 tags = [""]
