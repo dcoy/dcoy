@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://obsidianspork.gitlab.io/dcoy-blog"
+baseurl = "https://obsidianspork.gitlab.io/dcoy-blog/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "{ David Coy }"
