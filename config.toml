@@ -9,6 +9,7 @@ googleAnalytics = "UA-83205152-2"
 hasCJKLanguage = false
 pygmentsStyle = "dracula"
 pygmentsCodefences = true
+relativeURLs = true
 
 [params]
 	name = "David Coy"
