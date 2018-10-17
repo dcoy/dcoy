@@ -12,7 +12,7 @@ buildHugo:
     paths:
     - public
   only:
-  - master
+  - gitlab-integration
 
 production:
   image: python:latest
