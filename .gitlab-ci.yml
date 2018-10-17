@@ -7,12 +7,12 @@ stages:
 buildHugo:
   stage: build
   script:
-    - hugo
+  - hugo
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - master
+  - master
 
 production:
   image: python:latest
