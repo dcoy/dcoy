@@ -16,7 +16,7 @@ buildHugo:
 
 production:
   image: python:latest
-  stage: deploy
+  stage: production
   dependencies:
     - buildHugo
   before_script:
