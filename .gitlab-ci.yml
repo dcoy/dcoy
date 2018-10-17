@@ -23,7 +23,6 @@ production:
     - pip install awscli
   script:
     - aws s3 cp public/ s3://$BUCKET_NAME/ --recursive
-  url: http://$BUCKET_NAME.s3-website-us-east-1.amazonaws.com/
   environment:
     name: ${CI_COMMIT_REF_SLUG}
     url: http://$BUCKET_NAME.s3-website-us-east-1.amazonaws.com/  # This is the url of the bucket we saved before
