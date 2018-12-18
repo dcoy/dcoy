@@ -11,7 +11,7 @@ test:
   
 build:
   script:
-    - 'echo -e $CI_JOB_STAGE-$CI_COMMIT_REF_NAME'
+    - 'echo -e $CI_JOB_STAGE-$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA'
 
 pages:
   script:
