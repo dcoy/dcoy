@@ -20,7 +20,7 @@ Let's say you did the exact same thing I did and you're on your wrongly named lo
 git branch -m docs/new-branch-name
 ```
 
-This will rename the current local branch to `docs/new-branch-name` and avoid feedback from the technical writers that review your changes. Next, you can run the following commnand to rename `bad-branch-name` to `docs/new-branch-name` and push the new local branch:
+This will rename the current local branch to `docs/new-branch-name` and avoid feedback from the technical writers that review your changes. Next, you can run the following command to rename `bad-branch-name` to `docs/new-branch-name` and push the new local branch:
 
 ```shell
 git push origin :bad-branch-name docs/new-branch-name
