@@ -1,5 +1,5 @@
 +++
-title = "Rename Local and Remote Branch"
+title = "Rename local and remote branch"
 description = "Fix your bad branch for great good"
 date = 2019-02-26T11:03:01-06:00
 draft = false
