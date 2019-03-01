@@ -8,6 +8,10 @@ test:
   - hugo
   except:
   - master
+  
+build:
+  script:
+    - 'echo -e $CI_JOB_STAGE-$CI_COMMIT_REF_NAME:$(echo "$CI_COMMIT_SHA" | cut -c1-8)'
 
 pages:
   script:
