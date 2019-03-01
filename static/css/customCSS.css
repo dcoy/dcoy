@@ -30,7 +30,7 @@ img.hugo-logo {
 }
 
 #wrapper {
-  max-width: 50%;
+  max-width: 800px;
 }
 
 .profile #avatar {
@@ -129,6 +129,7 @@ code {
   border-radius: 4px;
   overflow: scroll;
   font-family: 'Menlo', 'Monaco', Courier, monospace;
+  color: var(--purple-text);
 }
 
 /* Dark Mode */
