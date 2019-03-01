@@ -129,7 +129,6 @@ code {
   border-radius: 4px;
   overflow: scroll;
   font-family: 'Menlo', 'Monaco', Courier, monospace;
-  color: var(--purple-text);
 }
 
 /* Dark Mode */
@@ -139,7 +138,6 @@ html {
   --off-white-text: #cdd4da;
   --dark-theme-bg: #282a36;
   --white: #fff;
-  --yellow: #f1fa8c;
 }
 
 .theme-dark,
