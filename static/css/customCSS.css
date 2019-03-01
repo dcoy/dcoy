@@ -140,6 +140,7 @@ html {
   --dark-theme-bg: #282a36;
   --white: #fff;
   --yellow: #f1fa8c;
+  --green: #4dba87;
 }
 
 .theme-dark,
@@ -177,7 +178,8 @@ h5 {
 }
 
 #post-body a {
-  color: var(--yellow);
+  color: var(--green);
+  text-decoration: none;
 }
 
 #post-list a {
