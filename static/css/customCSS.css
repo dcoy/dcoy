@@ -139,6 +139,7 @@ html {
   --off-white-text: #cdd4da;
   --dark-theme-bg: #282a36;
   --white: #fff;
+  --yellow: #f1fa8c;
 }
 
 .theme-dark,
@@ -173,6 +174,10 @@ h5 {
 .archive .post-link,
 #post-body p {
   color: var(--off-white-text);
+}
+
+#post-body a {
+  color: var(--yellow);
 }
 
 #post-list a {
