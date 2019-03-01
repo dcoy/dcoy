@@ -30,7 +30,7 @@ img.hugo-logo {
 }
 
 #wrapper {
-  max-width: 50%;
+  max-width: 800px;
 }
 
 .profile #avatar {
@@ -172,6 +172,10 @@ h5 {
 .archive .post-link,
 #post-body p {
   color: var(--off-white-text);
+}
+
+#post-body a {
+  color: var(--yellow);
 }
 
 #post-list a {
