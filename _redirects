@@ -1,2 +1,0 @@
-# Redirect default subdomain to primary domain
-https://dcoy-blog.netlify.com/* https://david-coy.com/:splat 301!
