@@ -12,4 +12,8 @@
     <p class="small">
         Powered by <a href="http://www.gohugo.io/">Hugo</a>
     </p>
+
+    {{ if .Params.asciinema }}
+    <script src="{{ .Site.BaseURL }}js/asciinema-player.js"></script>
+    {{ end }}
 </footer>
