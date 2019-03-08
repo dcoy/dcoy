@@ -10,6 +10,11 @@ showpagemeta = false
 showcomments = false
 +++
 
+{{< unsplash src="H-_Qtte5YU8" 
+    caption="On a high mossy branch"
+    user="@teddykelley"
+>}}
+
 We've all been there: cloning the project, making changes in our local branch, then committing those changes to the repository, only to find you didn't follow the contribution guidelines for branch naming. Recently, I opened a merge request against the [docs for GitLab](https://gitlab.com/gitlab-org/gitlab-ce/merge_requests/25498), but didn't follow our documentation guidelines for [branch naming](https://docs.gitlab.com/ee/development/documentation/index.html#branch-naming) as I should have.
 
 Initially, I created my branch: `add-efs-warning`, committed my changes and opened up the merge request. However, this was wrong as the branch name _also_ needs to be prefixed with `docs/`, `docs-`, or `-docs`. Rather than copying the changes I made to a blank text file, changing to the master branch, deleting the old branch, then creating a new branch and applying the changes, I learned how to rename my local branch _and_ remote branch.
