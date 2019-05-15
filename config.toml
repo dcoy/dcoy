@@ -17,7 +17,7 @@ relativeURLs = true
 	bio = "Blogger | Software Development | Coffee"
 	
 	twitter = "obsidianspork"
-	enableRSS = false
+	enableRSS = true
 	enableToc = true
 
 	# Disable disqus comments by set `enableDisqus = "false"`
@@ -29,7 +29,7 @@ relativeURLs = true
 	enableGithubIssuesTips = false
 
 	# Enable googleAnalytics
-	enableGoogleAnalytics = true
+	enableGoogleAnalytics = false
 
 	enableBaiduAnalytics = false
 
@@ -74,3 +74,24 @@ relativeURLs = true
   linkedin = "https://linkedin.com/in/david-coy"
   github   = "https://github.com/obsidianspork"
 	gitlab   = "https://gitlab.com/dcoy1"
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = false
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
