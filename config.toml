@@ -77,21 +77,14 @@ relativeURLs = true
 
 [privacy]
   [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = true
     disable = true
-    respectDoNotTrack = true
+  [privacy.googleAnalytics]
+    disable = true
   [privacy.instagram]
-    disable = false
-    simple = true
+    disable = true
   [privacy.twitter]
-    disable = false
-    enableDNT = true
-    simple = true
+    disable = true
   [privacy.vimeo]
-    disable = false
-    simple = true
+    disable = true
   [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+    disable = true
