@@ -6,9 +6,6 @@ variables:
 test:
   script:
   - hugo
-  environment:
-    name: staging
-    url: http://pages.gitlab.dcoy.me
   except:
   - master
 
